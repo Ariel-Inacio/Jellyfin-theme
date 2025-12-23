@@ -206,7 +206,9 @@ h4,
 
 #itemDetailPage .textActionButton,
 #itemDetailPage .cardText,
-#itemDetailPage .sectionTitle {
+#itemDetailPage .sectionTitle,
+#itemDetailPage .material-icons.chevron_left:before,
+#itemDetailPage .material-icons.chevron_right:before {
     color: white !important;
 }
 
