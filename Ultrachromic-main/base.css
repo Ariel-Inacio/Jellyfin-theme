@@ -37,55 +37,14 @@ div[data-role="controlgroup"] a[data-role="button"] {
     margin-top: 4rem;
 }
 
-/* Poster fixo no desktop: fixa o container externo e deixa o conteúdo interno estático */
-#itemDetailPage.layout-desktop .detailImageContainer.hide-mobile {
-  position: fixed !important;
-  top: 10% !important;
-  left: 2rem !important;
-  z-index: 10;
-  pointer-events: none;
+/*Stop covers from being scrolled on desktop*/
+.layout-desktop .detailImageContainer .card {
+    position: fixed !important;
+    top: 10% !important;
 }
-#itemDetailPage.layout-desktop .detailImageContainer.hide-mobile .card,
-#itemDetailPage.layout-desktop .detailImageContainer.hide-mobile .cardBox,
-#itemDetailPage.layout-desktop .detailImageContainer.hide-mobile .cardScalable,
-#itemDetailPage.layout-desktop .detailImageContainer.hide-mobile .cardImageContainer {
-  position: static !important;
+.layout-mobile .detailImageContainer .card {
+    position: absolute !important;
 }
-
-/* Neutraliza wrappers que quebram fixed (comum no Jellyfin) */
-#itemDetailPage,
-#itemDetailPage .page,
-#itemDetailPage .detailPageContainer,
-#itemDetailPage .detailRibbon,
-#itemDetailPage .infoWrapper {
-  transform: none !important;
-  filter: none !important;
-  perspective: none !important;
-  will-change: auto !important;
-}
-
-/* Reserva espaço para o texto não sobrepor o pôster */
-#itemDetailPage.layout-desktop .detailRibbon .infoWrapper {
-  padding-left: 24rem !important;
-}
-
-/* Largura consistente do pôster */
-#itemDetailPage.layout-desktop .detailImageContainer.hide-mobile .cardScalable {
-  width: 20rem !important;
-  max-width: 20rem !important;
-}
-
-/* Mobile: fix mobile poster and push content down to avoid overlap */
-#itemDetailPage.layout-mobile .detailRibbon .detailImageContainer.hide-desktop.hide-tv {
-  position: fixed !important;
-  top: 10% !important;
-  left: 1rem !important;
-  z-index: 6;
-}
-#itemDetailPage.layout-mobile .detailRibbon .infoWrapper {
-  padding-top: 32rem !important; /* adjust based on poster height on mobile */
-}
-
 /*Top "task bar" enlarge text*/
 .headerTabs.sectionTabs {
   text-size-adjust: 110%;
