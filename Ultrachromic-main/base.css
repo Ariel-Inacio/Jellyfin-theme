@@ -39,7 +39,7 @@ div[data-role="controlgroup"] a[data-role="button"] {
 
 /*Stop covers from being scrolled on desktop*/
 .layout-desktop .detailImageContainer .card {
-    position: fixed !important;
+    position: absolute !important;
     top: 10% !important;
 }
 .layout-mobile .detailImageContainer .card {
