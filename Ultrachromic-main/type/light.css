@@ -352,7 +352,7 @@ h4,
 }
 
 .navMenuOption-selected {
-  color: white;
+  color: red;
 }
 
 .navMenuOption-selected, .selectionCommandsPanel {
@@ -403,7 +403,7 @@ h4,
 }
 
 .mainDrawer{
-    background-color: rgb(0 0 0 / 85%);
+    background-color: rgb(0 0 0 / 100%);
 }
 
 /*Colors for loading spinner, placeholders, scroll bars*/
