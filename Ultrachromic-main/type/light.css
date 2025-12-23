@@ -352,7 +352,7 @@ h4,
 }
 
 .navMenuOption-selected {
-  color: red;
+  color: red !important;
 }
 
 .navMenuOption-selected, .selectionCommandsPanel {
