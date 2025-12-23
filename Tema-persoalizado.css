@@ -1,18 +1,18 @@
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/jf_font.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/fixes.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/fixes_new.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/base.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/accentlist.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/rounding.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/smallercast.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/episodelist/episodes_compactlist.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/header/header_transparent-dashboard.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/login/login_minimalistic.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/fields/fields_noborder.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/cornerindicator/indicator_floating.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/type/light.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/titlepage/title_simple.css');
-@import url('https://cdn.jsdelivr.net/gh/CTalvio/Ultrachromic/progress/floating.css');
+@import url('https://ariel-inacio.github.io/Jellyfin-theme/Ultrachromic-main/jf_font.css');
+@import url('https://ariel-inacio.github.io/Jellyfin-theme/Ultrachromic-main/fixes.css');
+@import url('https://ariel-inacio.github.io/Jellyfin-theme/Ultrachromic-main/fixes_new.css');
+@import url('https://ariel-inacio.github.io/Jellyfin-theme/Ultrachromic-main/base.css');
+@import url('https://ariel-inacio.github.io/Jellyfin-theme/Ultrachromic-main/accentlist.css');
+@import url('https://ariel-inacio.github.io/Jellyfin-theme/Ultrachromic-main/rounding.css');
+@import url('https://ariel-inacio.github.io/Jellyfin-theme/Ultrachromic-main/smallercast.css');
+@import url('https://ariel-inacio.github.io/Jellyfin-theme/Ultrachromic-main/episodelist/episodes_compactlist.css');
+@import url('https://ariel-inacio.github.io/Jellyfin-theme/Ultrachromic-main/header/header_transparent-dashboard.css');
+@import url('https://ariel-inacio.github.io/Jellyfin-theme/Ultrachromic-main/login/login_minimalistic.css');
+@import url('https://ariel-inacio.github.io/Jellyfin-theme/Ultrachromic-main/fields/fields_noborder.css');
+@import url('https://ariel-inacio.github.io/Jellyfin-theme/Ultrachromic-main/cornerindicator/indicator_floating.css');
+@import url('https://ariel-inacio.github.io/Jellyfin-theme/Ultrachromic-main/type/light.css');
+@import url('https://ariel-inacio.github.io/Jellyfin-theme/Ultrachromic-main/titlepage/title_simple.css');
+@import url('https://ariel-inacio.github.io/Jellyfin-theme/Ultrachromic-main/progress/floating.css');
 :root {--rounding: 12px;}
 
 /*Style backdrop*/

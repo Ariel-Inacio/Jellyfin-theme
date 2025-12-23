@@ -45,6 +45,7 @@ div[data-role="controlgroup"] a[data-role="button"] {
 .layout-mobile .detailImageContainer .card {
     position: absolute !important;
 }
+
 /*Top "task bar" enlarge text*/
 .headerTabs.sectionTabs {
   text-size-adjust: 110%;
