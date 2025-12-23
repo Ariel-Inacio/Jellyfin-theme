@@ -43,7 +43,7 @@ div[data-role="controlgroup"] a[data-role="button"] {
     top: 10% !important;
 }
 .layout-mobile .detailImageContainer .card {
-    position: absolute !important;
+    position: fixed !important;
 }
 
 /*Top "task bar" enlarge text*/
