@@ -144,7 +144,6 @@ progress::-webkit-progress-value {
 body,
 a,
 h1,
-
 h3,
 h4,
 .textActionButton,
@@ -195,6 +194,11 @@ h4,
 }
 #devicesPage .cardImage {
     filter: brightness(20%);
+}
+
+/*Faz algumas coisas brancas*/
+h2{
+    color: white !important;
 }
 
 /*Theme media player*/
