@@ -154,7 +154,8 @@ h4,
 .mediaInfoItem,
 .nowPlayingBarCurrentTime,
 .paper-icon-button-light,
-.textActionButton {
+.textActionButton,
+.sectionTitle {
     text-shadow: none !important;
     color: black !important;
 }
