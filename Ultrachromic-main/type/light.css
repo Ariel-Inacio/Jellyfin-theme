@@ -197,13 +197,6 @@ h4,
     filter: brightness(20%);
 }
 
-/*Faz algumas coisas brancas*/
-h2,
-a
-{
-    color: white !important;
-}
-
 /* TextActionButton: preto na home, branco nas páginas de detalhes */
 #indexPage .textActionButton,
 #indexPage .cardText,
