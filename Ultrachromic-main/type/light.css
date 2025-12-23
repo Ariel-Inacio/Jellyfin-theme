@@ -198,9 +198,17 @@ h4,
 /*Faz algumas coisas brancas*/
 h2,
 a,
-.cardText,
-.textActionButton
+.cardText
 {
+    color: white !important;
+}
+
+/* TextActionButton: preto na home, branco nas páginas de detalhes */
+#indexPage .textActionButton {
+    color: black !important;
+}
+
+#itemDetailPage .textActionButton {
     color: white !important;
 }
 
