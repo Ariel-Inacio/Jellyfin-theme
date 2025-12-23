@@ -137,7 +137,6 @@ progress::-webkit-progress-value {
 .button-link,
 .emby-tab-button-active,
 .toast,
-.cardText,
 .paperListLabel,
 #scheduledTasksPage span,
 .raised.homeLibraryButton:hover,
@@ -145,7 +144,6 @@ body,
 h1,
 h3,
 h4,
-.textActionButton,
 .inputLabel,
 .inputLabelUnfocused,
 .fieldDescription,
@@ -168,7 +166,7 @@ h4,
 .nowPlayingBarSecondaryText,
 .programSecondaryTitle,
 .secondaryText {
-    color: white;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .material-icons {
@@ -197,7 +195,10 @@ h4,
 
 /*Faz algumas coisas brancas*/
 h2,
-a{
+a,
+.cardText,
+.textActionButton
+{
     color: white !important;
 }
 
