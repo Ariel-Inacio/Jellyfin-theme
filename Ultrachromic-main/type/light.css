@@ -160,6 +160,17 @@ h4,
     color: black !important;
 }
 
+.cardText-secondary,
+.fieldDescription,
+.guide-programNameCaret,
+.listItem,
+.secondary,
+.nowPlayingBarSecondaryText,
+.programSecondaryTitle,
+.secondaryText {
+    color: white;
+}
+
 .material-icons {
     color: black !important;
 }
@@ -188,17 +199,6 @@ h4,
 h2,
 a{
     color: white !important;
-}
-
-.cardText-secondary,
-.fieldDescription,
-.guide-programNameCaret,
-.listItem,
-.secondary,
-.nowPlayingBarSecondaryText,
-.programSecondaryTitle,
-.secondaryText {
-    color: rgba(255, 255, 255, 0.7);
 }
 
 /*Theme media player*/
