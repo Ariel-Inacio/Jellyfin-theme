@@ -38,9 +38,10 @@ div[data-role="controlgroup"] a[data-role="button"] {
 }
 
 /*Stop covers from being scrolled on desktop*/
+/*absolute capa nao rola com o scroll*/
 .layout-desktop .detailImageContainer .card {
     position: absolute !important;
-    top: 10% !important;
+    top: 20% !important;
 }
 .layout-mobile .detailImageContainer .card {
     position: absolute !important;
