@@ -139,6 +139,7 @@ progress::-webkit-progress-value {
 .toast,
 .cardText,
 .paperListLabel,
+#scheduledTasksPage span,
 .raised.homeLibraryButton:hover,
 body,
 h1,
