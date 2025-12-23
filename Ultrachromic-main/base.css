@@ -54,6 +54,50 @@ div[data-role="controlgroup"] a[data-role="button"] {
   top: 10% !important;
 }
 
+/* Keep poster fixed on scroll (scoped to item detail page) */
+/* Desktop: fix the outer poster container, then let inner elements be static */
+#itemDetailPage.layout-desktop .detailImageContainer.hide-mobile {
+  position: fixed !important;
+  top: 10% !important;
+  left: 2rem !important; /* adjust to your page padding */
+  z-index: 5;
+  pointer-events: none; /* remove if you need to interact with the poster */
+}
+#itemDetailPage.layout-desktop .detailImageContainer.hide-mobile .card,
+#itemDetailPage.layout-desktop .detailImageContainer.hide-mobile .cardBox,
+#itemDetailPage.layout-desktop .detailImageContainer.hide-mobile .cardScalable,
+#itemDetailPage.layout-desktop .detailImageContainer.hide-mobile .cardImageContainer {
+  position: static !important;
+}
+
+/* Avoid transforms creating a fixed-position containing block */
+#itemDetailPage .detailRibbon,
+#itemDetailPage .detailRibbon .infoWrapper {
+  transform: none !important;
+}
+
+/* Reserve space so text doesn’t overlap the fixed poster */
+#itemDetailPage.layout-desktop .detailRibbon .infoWrapper {
+  padding-left: 24rem !important; /* match to poster width */
+}
+
+/* Optional: enforce a consistent poster width */
+#itemDetailPage.layout-desktop .detailImageContainer.hide-mobile .cardScalable {
+  width: 20rem !important;
+  max-width: 20rem !important;
+}
+
+/* Mobile: fix mobile poster and push content down to avoid overlap */
+#itemDetailPage.layout-mobile .detailRibbon .detailImageContainer.hide-desktop.hide-tv {
+  position: fixed !important;
+  top: 10% !important;
+  left: 1rem !important;
+  z-index: 6;
+}
+#itemDetailPage.layout-mobile .detailRibbon .infoWrapper {
+  padding-top: 32rem !important; /* adjust based on poster height on mobile */
+}
+
 /*Top "task bar" enlarge text*/
 .headerTabs.sectionTabs {
   text-size-adjust: 110%;
