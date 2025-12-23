@@ -217,8 +217,15 @@ h4,
     background-color: rgba(0,0,0,.5) !important;
 }
 
-/*deixa algumas coisas brancas*/
+/*Deixa algumas coisas brancas*/
 .navMenuOptionText {
+    color: white !important;
+}
+.sidebarHeader {
+    color: white !important;
+}
+
+[dir=ltr] .navMenuOptionIcon {
     color: white !important;
 }
 
