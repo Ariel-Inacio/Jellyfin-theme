@@ -142,6 +142,7 @@ progress::-webkit-progress-value {
 #scheduledTasksPage span,
 .raised.homeLibraryButton:hover,
 body,
+a,
 h1,
 h3,
 h4,
@@ -196,8 +197,7 @@ h4,
 }
 
 /*Faz algumas coisas brancas*/
-h2,
-a{
+h2{
     color: white !important;
 }
 
