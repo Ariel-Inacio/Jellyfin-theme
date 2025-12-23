@@ -37,31 +37,13 @@ div[data-role="controlgroup"] a[data-role="button"] {
     margin-top: 4rem;
 }
 
-/*Stop covers from being scrolled on desktop*/
-.layout-desktop .detailImageContainer .card {
-    position: fixed !important;
-    top: 10% !important;
-}
-/* Fixar o pôster durante o scroll (mobile também) */
-.layout-mobile .detailImageContainer .card {
-  position: fixed !important;
-  top: 10% !important;
-}
-/* Fallback para variações de markup */
-.layout-mobile .itemDetailImage,
-.layout-desktop .itemDetailImage {
-  position: fixed !important;
-  top: 10% !important;
-}
-
-/* Keep poster fixed on scroll (scoped to item detail page) */
-/* Desktop: fix the outer poster container, then let inner elements be static */
+/* Poster fixo no desktop: fixa o container externo e deixa o conteúdo interno estático */
 #itemDetailPage.layout-desktop .detailImageContainer.hide-mobile {
   position: fixed !important;
   top: 10% !important;
-  left: 2rem !important; /* adjust to your page padding */
-  z-index: 5;
-  pointer-events: none; /* remove if you need to interact with the poster */
+  left: 2rem !important;
+  z-index: 10;
+  pointer-events: none;
 }
 #itemDetailPage.layout-desktop .detailImageContainer.hide-mobile .card,
 #itemDetailPage.layout-desktop .detailImageContainer.hide-mobile .cardBox,
@@ -70,18 +52,24 @@ div[data-role="controlgroup"] a[data-role="button"] {
   position: static !important;
 }
 
-/* Avoid transforms creating a fixed-position containing block */
+/* Neutraliza wrappers que quebram fixed (comum no Jellyfin) */
+#itemDetailPage,
+#itemDetailPage .page,
+#itemDetailPage .detailPageContainer,
 #itemDetailPage .detailRibbon,
-#itemDetailPage .detailRibbon .infoWrapper {
+#itemDetailPage .infoWrapper {
   transform: none !important;
+  filter: none !important;
+  perspective: none !important;
+  will-change: auto !important;
 }
 
-/* Reserve space so text doesn’t overlap the fixed poster */
+/* Reserva espaço para o texto não sobrepor o pôster */
 #itemDetailPage.layout-desktop .detailRibbon .infoWrapper {
-  padding-left: 24rem !important; /* match to poster width */
+  padding-left: 24rem !important;
 }
 
-/* Optional: enforce a consistent poster width */
+/* Largura consistente do pôster */
 #itemDetailPage.layout-desktop .detailImageContainer.hide-mobile .cardScalable {
   width: 20rem !important;
   max-width: 20rem !important;
