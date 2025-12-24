@@ -91,7 +91,7 @@ a[data-role="button"] {
 .navMenuOption:hover .navMenuOptionIcon,
 .navMenuOption:hover .material-icons,
 .navMenuOption:hover .navMenuOptionText {
-  color: rgba(var(--accent),1) !important;
+  color: rgba(var(--letterAccent),1) !important;
 }
 
 /*Login background*/
