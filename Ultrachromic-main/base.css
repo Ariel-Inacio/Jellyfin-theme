@@ -244,3 +244,7 @@ div[data-role="controlgroup"] a[data-role="button"] {
     padding-left: 2.45vw !important;
     padding-right: 2% !important;
 }
+
+.padded-bottom-page {
+    padding-top: 2em !important;
+}

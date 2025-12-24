@@ -1,5 +1,6 @@
 /*This file contains color changes for the light theme type*/
 :root {--accent: 255, 255, 255;}
+:root {--letterAaccent: 0, 0, 0;}
 :root {--indicator: var(--accent);}
 :root {--selection: var(--accent);}
 
