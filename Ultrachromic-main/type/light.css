@@ -1,6 +1,6 @@
 /*This file contains color changes for the light theme type*/
 :root {--accent: 255, 255, 255;}
-:root {--letterAaccent: 0, 0, 0;}
+:root {--letterAccent: 0, 0, 0;}
 :root {--indicator: var(--accent);}
 :root {--selection: var(--accent);}
 
@@ -85,6 +85,13 @@ a[data-role="button"] {
 
 .navMenuOption:hover, .actionSheetMenuItem:hover {
   background-color: rgba(var(--accent),1) !important;
+}
+
+/* Mudar cor dos ícones e texto durante hover */
+.navMenuOption:hover .navMenuOptionIcon,
+.navMenuOption:hover .material-icons,
+.navMenuOption:hover .navMenuOptionText {
+  color: rgba(var(--accent),1) !important;
 }
 
 /*Login background*/
