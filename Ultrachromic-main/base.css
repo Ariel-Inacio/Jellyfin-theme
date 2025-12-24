@@ -41,7 +41,7 @@ div[data-role="controlgroup"] a[data-role="button"] {
 /*absolute capa nao rola com o scroll*/
 .layout-desktop .detailImageContainer .card {
     position: absolute !important;
-    top: 20% !important;
+    top: 10% !important;
 }
 .layout-mobile .detailImageContainer .card {
     position: absolute !important;
