@@ -134,7 +134,6 @@ progress::-webkit-progress-value {
 .paper-icon-button-light:hover,
 .raised.homeLibraryButton:hover,
 .button-flat:hover,
-.ratingbutton-icon-withrating,
 .paper-icon-button-light:hover:not(:disabled),
 .emby-tab-button:hover,
 .selectLabelFocused,
@@ -231,8 +230,10 @@ h4,
 .sidebarHeader {
     color: white !important;
 }
-
 [dir=ltr] .navMenuOptionIcon {
+    color: white !important;
+}
+.playstatebutton-icon-played{
     color: white !important;
 }
 
@@ -436,6 +437,7 @@ h4,
 	background-color: rgba(var(--accent), .6);
 }
 
-.playstatebutton-icon-played{
-    color: yellow !important;
+/*quando marcado como favorito o coração fica na cor vermelha*/
+.ratingbutton-icon-withrating{
+    color: red !important;
 }
