@@ -443,6 +443,20 @@ h4,
 }
 
 /* Mudar cor do h2 apenas para páginas de detalhes de Movie */
-#childrenContent {
-    color: red !important;
+#childrenContent .verticalSection[data-type="Movie"] .cardText,
+#childrenContent .verticalSection[data-type="Movie"] a,
+#childrenContent .verticalSection[data-type="Movie"] h2 {
+    color: Black !important;
+}
+
+/* Mudar cor do h2 apenas para páginas de detalhes de Serie */  
+#childrenContent .verticalSection[data-type="Serie"] .cardText,
+#childrenContent .verticalSection[data-type="Serie"] a,
+#childrenContent .verticalSection[data-type="Serie"] h2 {
+    color: Black !important;
+}
+
+#childrenContent .verticalSection[data-type="Episode"] .cardText,
+#childrenContent .verticalSection[data-type="Episode"] a {
+    color: Black !important;
 }
