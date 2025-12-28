@@ -407,7 +407,7 @@ h4,
 .emby-input,
 .emby-textarea,
 .emby-select-withcolor {
-    background-color: rgba(180, 180, 180, 0.8);
+    background-color: rgba(180, 180, 180, 1);
 }
 
 .mainDrawer{
@@ -458,5 +458,8 @@ h4,
 
 #childrenContent .verticalSection[data-type="Episode"] .cardText,
 #childrenContent .verticalSection[data-type="Episode"] a {
+    color: Black !important;
+}
+#childrenContent .verticalSection[data-type="Episode"] h2 {
     color: Black !important;
 }
