@@ -441,3 +441,9 @@ h4,
 .ratingbutton-icon-withrating{
     color: red !important;
 }
+
+/* Mudar cor do h2 apenas para Movie (ou outro tipo específico) */
+#itemDetailPage[data-type="Movie"] h2,
+#itemDetailPage[data-itemtype="Movie"] h2 {
+    color: red !important;
+}
