@@ -442,12 +442,7 @@ h4,
     color: red !important;
 }
 
-/* Mudar cor do h2 para seções de Movie */
-.verticalSection[data-type="Movie"] h2 {
-    color: red !important;
-}
-
 /* Mudar cor do h2 apenas para páginas de detalhes de Movie */
-#itemDetailPage[data-type="Movie"] h2 {
+#childrenContent h2 {
     color: red !important;
 }
