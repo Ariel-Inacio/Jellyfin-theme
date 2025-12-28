@@ -450,9 +450,9 @@ h4,
 }
 
 /* Mudar cor do h2 apenas para páginas de detalhes de Serie */  
-#childrenContent .verticalSection[data-type="Serie"] .cardText,
-#childrenContent .verticalSection[data-type="Serie"] a,
-#childrenContent .verticalSection[data-type="Serie"] h2 {
+#childrenContent .verticalSection[data-type="Series"] .cardText,
+#childrenContent .verticalSection[data-type="Series"] a,
+#childrenContent .verticalSection[data-type="Series"] h2 {
     color: Black !important;
 }
 
