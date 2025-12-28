@@ -443,6 +443,6 @@ h4,
 }
 
 /* Mudar cor do h2 apenas para páginas de detalhes de Movie */
-#childrenContent h2 {
+#childrenContent {
     color: red !important;
 }
