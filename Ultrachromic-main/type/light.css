@@ -442,24 +442,29 @@ h4,
     color: red !important;
 }
 
-/* Mudar cor do h2 apenas para páginas de detalhes de Movie */
+/* Mudar cor apenas para páginas de detalhes de Movie */
 #childrenContent .verticalSection[data-type="Movie"] .cardText,
 #childrenContent .verticalSection[data-type="Movie"] a,
 #childrenContent .verticalSection[data-type="Movie"] h2 {
     color: Black !important;
 }
 
-/* Mudar cor do h2 apenas para páginas de detalhes de Serie */  
+/* Mudar cor apenas para páginas de detalhes de Serie */  
 #childrenContent .verticalSection[data-type="Series"] .cardText,
 #childrenContent .verticalSection[data-type="Series"] a,
 #childrenContent .verticalSection[data-type="Series"] h2 {
     color: Black !important;
 }
 
+/* Mudar cor apenas para páginas de detalhes de Episode */
 #childrenContent .verticalSection[data-type="Episode"] .cardText,
-#childrenContent .verticalSection[data-type="Episode"] a {
-    color: Black !important;
-}
+#childrenContent .verticalSection[data-type="Episode"] a,
 #childrenContent .verticalSection[data-type="Episode"] h2 {
     color: Black !important;
+}
+
+/*Mudar a cor do botão mais na aba detalhes*/
+#itemDetailPage .raised{
+    color: white !important;
+    background-color: #101010 !important;
 }
