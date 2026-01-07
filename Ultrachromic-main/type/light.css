@@ -452,7 +452,12 @@ h4,
 /* Mudar cor apenas para páginas de detalhes de Serie */  
 #childrenContent .verticalSection[data-type="Series"] .cardText,
 #childrenContent .verticalSection[data-type="Series"] a,
-#childrenContent .verticalSection[data-type="Series"] h2 {
+#childrenContent .verticalSection[data-type="Series"] h2,
+#itemDetailPage .nextUpSection.verticalSection.detailVerticalSection h2,
+#itemDetailPage .nextUpSection.verticalSection.detailVerticalSection a,
+#listChildrenCollapsible h2 span,
+#listChildrenCollapsible #childrenContent a,
+#itemDetailPage #listChildrenCollapsible .cardText {
     color: Black !important;
 }
 
