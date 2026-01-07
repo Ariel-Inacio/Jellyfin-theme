@@ -452,12 +452,7 @@ h4,
 /* Mudar cor apenas para páginas de detalhes de Serie */  
 #childrenContent .verticalSection[data-type="Series"] .cardText,
 #childrenContent .verticalSection[data-type="Series"] a,
-#childrenContent .verticalSection[data-type="Series"] h2,
-#itemDetailPage .nextUpSection.verticalSection.detailVerticalSection h2,
-#itemDetailPage .nextUpSection.verticalSection.detailVerticalSection a,
-#listChildrenCollapsible h2 span,
-#listChildrenCollapsible #childrenContent a,
-#itemDetailPage #listChildrenCollapsible .cardText {
+#childrenContent .verticalSection[data-type="Series"] h2 {
     color: Black !important;
 }
 
@@ -483,4 +478,19 @@ h4,
 .nextUpSection h2 span
 {
     color: black !important;
+}
+
+/*Muda a cor da letra das temporadas e próximo episódio na página detalhe da série*/
+#listChildrenCollapsible h2 span,
+#listChildrenCollapsible #childrenContent a {
+    color: black !important;
+}
+
+#itemDetailPage .nextUpSection.verticalSection.detailVerticalSection h2,
+#itemDetailPage .nextUpSection.verticalSection.detailVerticalSection a{
+  color: black !important;
+}
+
+#itemDetailPage #listChildrenCollapsible .cardText {
+  color: black !important;
 }
