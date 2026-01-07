@@ -468,3 +468,14 @@ h4,
     color: white !important;
     background-color: #101010 !important;
 }
+
+/*Muda a cor da letra das temporadas e próximo episódio na página detalhe da série*/
+#listChildrenCollapsible h2,
+#listChildrenCollapsible h2 span,
+#listChildrenCollapsible a,
+#childrenContent a,
+.nextUpSection h2,
+.nextUpSection h2 span
+{
+    color: black !important;
+}
